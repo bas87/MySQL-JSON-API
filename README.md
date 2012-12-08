@@ -1,22 +1,22 @@
 MySQL-JSON-API
 ==============
 
-This is an example of how to create a simple JSON HTTP API for mysql
+This is an example of how to create a simple JSON HTTP API for MySql with *node.js*
 
   USET FROM CLIENT
   
-  POST
-  ---------
+POST
+---------
   
-  $.ajax("http://magic-server:3000/data", {
+$.ajax("http://magic-server:3000/data", {
    type: "GET",
    data : {key: "message", value: "text"}
-  });
+});
  
-  GET
-  ------------
+GET
+------------
   
-  $.ajax("http://magic-server:3000/data", {success: function(data) {
+$.ajax("http://magic-server:3000/data", {success: function(data) {
      console.log(data);  
-  }});
+}});
  
