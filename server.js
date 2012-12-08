@@ -1,4 +1,3 @@
-
 /**
  *
  * DATA API for MySql Server
@@ -30,8 +29,8 @@ app.use(express.bodyParser());
 var connection = mysql.createConnection({
   host      : 'localhost',
   user      : 'root',
-  password  : 'root',
-  database  : 'test2',
+  password  : '####',
+  database  : 'test',
 });
 
 
