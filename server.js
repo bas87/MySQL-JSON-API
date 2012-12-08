@@ -8,7 +8,7 @@
  * POST:
  * $.ajax("http://magic-server:3000/data", {
  *  type: "GET",
- *  data : {key: "asas", value: "b*/*/*/"}
+ *  data : {key: "name", value: "Michael"}
  * });
  *
  * GET:
