@@ -13,7 +13,7 @@
  *
  * GET:
  * $.ajax("http://magic-server:3000/data"
- * type: "POST", 
+ * type: "GET", 
  * {success: function(data) {
  *    console.log(data);  
  * }});
