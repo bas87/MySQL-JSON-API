@@ -12,7 +12,9 @@
  * });
  *
  * GET:
- * $.ajax("http://magic-server:3000/data", {success: function(data) {
+ * $.ajax("http://magic-server:3000/data"
+ * type: "POST", 
+ * {success: function(data) {
  *    console.log(data);  
  * }});
  *
